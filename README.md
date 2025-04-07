@@ -16,3 +16,15 @@ Mulakan dengan mencipta sintaks asas untuk:
 int x = 10
 print(x)
 ```
+
+✅ 2. Bina compiler/interpreter asas
+Gunakan bahasa lain (contohnya C, C++, atau Java) untuk:
+* Parse kod anda (lexer + parser)
+* Jalankan arahan (interpreter) atau hasilkan bytecode (compiler)
+
+💡 Anda perlu bina:
+* Tokenizer
+* Parser
+* AST builder
+* Virtual Machine (jika interpreted)
+
