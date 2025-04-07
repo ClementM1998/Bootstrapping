@@ -32,4 +32,11 @@ Gunakan bahasa lain (contohnya C, C++, atau Java) untuk:
 Pastikan bahasa anda:
 * Tiada print, Math, String, System, dan sebagainya.
 * Hanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
+
 `Contoh (kod peringkat rendah anda boleh jadi seperti):`
+```
+PUSH 10
+PUSH 20
+ADD
+STORE x
+```
