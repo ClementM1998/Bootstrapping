@@ -30,6 +30,7 @@ print(x)
 * Virtual Machine (jika interpreted)
 
 ✅ 3. Kosongkan semua fungsi perpustakaan
+
 Pastikan bahasa anda:
 * Tiada print, Math, String, System, dan sebagainya.
 * Hanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
@@ -43,7 +44,9 @@ STORE x
 ```
 
 ✅ 4. Bina perpustakaan dalam bahasa itu sendiri
+
 Sekarang, gunakan bahasa itu sendiri untuk membina semula fungsi asas seperti:
+
 * print() → mungkin anda panggil fungsi VM secara dalaman
 * Math.add() → anda tulis fungsi penambahan dalam bahasa itu
 * String.length() → anda bina logik kiraan sendiri
