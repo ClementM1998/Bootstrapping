@@ -12,5 +12,7 @@ Mulakan dengan mencipta sintaks asas untuk:
 * Struktur asas kelas (jika OOP)
 
 `Contoh:`
-```int x = 10```
-```print(x)```
+```
+int x = 10
+print(x)
+```
