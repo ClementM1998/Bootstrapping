@@ -40,3 +40,10 @@ PUSH 20
 ADD
 STORE x
 ```
+
+✅ 4. Bina perpustakaan dalam bahasa itu sendiri
+Sekarang, gunakan bahasa itu sendiri untuk membina semula fungsi asas seperti:
+* print() → mungkin anda panggil fungsi VM secara dalaman
+* Math.add() → anda tulis fungsi penambahan dalam bahasa itu
+* String.length() → anda bina logik kiraan sendiri
+
