@@ -5,7 +5,7 @@ Apa kah saya boleh membuat bahasa pengaturcaraan sendiri yang kosong maksud saya
 
 ✅ 1. Reka sintaks asas
 
-Mulakan dengan mencipta sintaks asas untuk:
+`Mulakan dengan mencipta sintaks asas untuk:`
 * Perisytiharan pembolehubah
 * Operasi aritmetik
 * Kawalan aliran (if, while, for)
@@ -32,7 +32,7 @@ print(x)
 
 ✅ 3. Kosongkan semua fungsi perpustakaan
 
-Pastikan bahasa anda:
+`Pastikan bahasa anda:`
 * Tiada print, Math, String, System, dan sebagainya.
 * Hanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
 
@@ -46,14 +46,14 @@ STORE x
 
 ✅ 4. Bina perpustakaan dalam bahasa itu sendiri
 
-Sekarang, gunakan bahasa itu sendiri untuk membina semula fungsi asas seperti:
+`Sekarang, gunakan bahasa itu sendiri untuk membina semula fungsi asas seperti:`
 * print() → mungkin anda panggil fungsi VM secara dalaman
 * Math.add() → anda tulis fungsi penambahan dalam bahasa itu
 * String.length() → anda bina logik kiraan sendiri
 
 ✅ 5. Bootstrapping compiler
 
-Satu tahap lebih tinggi: tulis compiler bahasa anda dalam bahasa anda sendiri. Ini sangat advanced dan dilakukan oleh bahasa seperti:
+`Satu tahap lebih tinggi: tulis compiler bahasa anda dalam bahasa anda sendiri. Ini sangat advanced dan dilakukan oleh bahasa seperti:`
 * C: compiler awal ditulis dalam assembler → kemudian C digunakan untuk tulis compiler C
 * Rust: compiler sekarang ditulis dalam Rust
 * Go: compiler sekarang ditulis dalam Go
