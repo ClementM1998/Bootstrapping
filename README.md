@@ -28,3 +28,8 @@ Gunakan bahasa lain (contohnya C, C++, atau Java) untuk:
 * AST builder
 * Virtual Machine (jika interpreted)
 
+✅ 3. Kosongkan semua fungsi perpustakaan
+Pastikan bahasa anda:
+Tiada print, Math, String, System, dan sebagainya.
+Hanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
+Contoh (kod peringkat rendah anda boleh jadi seperti):
