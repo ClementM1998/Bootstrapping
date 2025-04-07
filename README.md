@@ -46,8 +46,13 @@ STORE x
 ✅ 4. Bina perpustakaan dalam bahasa itu sendiri
 
 Sekarang, gunakan bahasa itu sendiri untuk membina semula fungsi asas seperti:
-
 * print() → mungkin anda panggil fungsi VM secara dalaman
 * Math.add() → anda tulis fungsi penambahan dalam bahasa itu
 * String.length() → anda bina logik kiraan sendiri
 
+✅ 5. Bootstrapping compiler
+
+Satu tahap lebih tinggi: tulis compiler bahasa anda dalam bahasa anda sendiri. Ini sangat advanced dan dilakukan oleh bahasa seperti:
+* C: compiler awal ditulis dalam assembler → kemudian C digunakan untuk tulis compiler C
+* Rust: compiler sekarang ditulis dalam Rust
+* Go: compiler sekarang ditulis dalam Go
