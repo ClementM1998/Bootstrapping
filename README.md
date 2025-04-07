@@ -30,6 +30,6 @@ Gunakan bahasa lain (contohnya C, C++, atau Java) untuk:
 
 ✅ 3. Kosongkan semua fungsi perpustakaan
 Pastikan bahasa anda:
-Tiada print, Math, String, System, dan sebagainya.
-Hanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
-Contoh (kod peringkat rendah anda boleh jadi seperti):
+\nTiada print, Math, String, System, dan sebagainya.
+\nHanya menyokong operasi yang boleh dijalankan melalui instruction set yang anda buat.
+\nContoh (kod peringkat rendah anda boleh jadi seperti):
